@@ -11,23 +11,13 @@ string word;
 
 public:
 
-Assignment ()
-{
-num = 0;
-word = "testphase";
-}
+Assignment ();
 
-void setNum (int classNum)
-{
-	num = classNum;
-}
+void setNum (int classNum);
 
-void setWord (string classWord)
-{
-	word = classWord;
-}
+void setWord (string classWord);
 
-string getWord () const { return word; }
-int getNum () const { return num: }
+string getWord () const;
+int getNum () const;
 };
 
