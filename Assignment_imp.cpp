@@ -19,4 +19,4 @@ void Assignment:: setWord (string classWord)
 }
 
 string Assignment:: getWord () const { return word; }
-int Assignment:: getNum () const { return num: }
+int Assignment:: getNum () const { return num; }
