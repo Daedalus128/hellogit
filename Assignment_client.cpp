@@ -32,7 +32,7 @@ cout << " The value of the objects in the vector are: " << endl;
 
 for (int y = 0; y < 6; y++)
 {
-cout << testvector[y] << endl;
+cout << "Test" << endl;
 }
 
 
