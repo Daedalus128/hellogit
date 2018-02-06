@@ -30,10 +30,10 @@ testvector.push_back (object);
 cout << "The vector contains " << testvector.size() << " objects" << endl;
 cout << " The value of the objects in the vector are: " << endl;
 
-/*for (int y = 0; y < testvector.size(); y++)
+for (int y = 0; y < testvector.size(); y++)
 {
 cout << testvector[y] << endl;
-}*/
+}
 
 
 }
