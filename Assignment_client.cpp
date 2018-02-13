@@ -32,7 +32,10 @@ cout << " The value of the objects in the vector are: " << endl;
 
 for (int y = 0; y < testvector.size(); y++)
 {
-cout << testvector{y} << endl;
+cout << testvector[y].getNum() << endl;
+cout << testvector[y].getWord() << endl;
+cout << endl;
+
 }
 
 
